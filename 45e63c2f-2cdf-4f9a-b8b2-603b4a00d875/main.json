@@ -1,1 +1,1 @@
-{}
+{"interval": "5mins", "assets": ["AZ"], "strategy": [{"type": "IF", "conditions": [{"type": "BINARY", "first": {"name": "EMA", "args": {"length": "1", "ticker": "AZ"}, "advanced": {}}, "second": {"name": "MFI", "args": {"length": "2", "ticker": "AZ"}}, "comp": ">", "operator": ""}], "if_action": {"type": "ACTION", "steps": []}, "else_action": {"type": "ACTION", "steps": []}}]}
